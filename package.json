@@ -1,0 +1,62 @@
+{
+  "name": "my_first_home",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/compatible": "^1.0.8",
+    "@ant-design/icons": "^4.2.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.12.2",
+    "antd-mobile": "^2.3.4",
+    "enquire-js": "0.2.1",
+    "less-loader": "^4.1.0",
+    "rc-banner-anim": "^2.4.2",
+    "rc-queue-anim": "1.8.5",
+    "rc-scroll-anim": "2.7.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "react-sublime-video": "^0.2.5",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "rules": {
+    "test": "/.less$/",
+    "use": [
+      {
+        "loader": "style-loader"
+      },
+      {
+        "loader": "css-loader"
+      },
+      {
+        "loader": "less-loader"
+      }
+    ]
+  }
+}
